@@ -1,4 +1,4 @@
-# Bomapoint Admin
+# Next, Typescript
 
 Started : 01st December 2020
 
