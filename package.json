@@ -1,5 +1,5 @@
 {
-  "name": "with-typescript",
+  "name": "next-tsx",
   "version": "1.0.0",
   "scripts": {
     "dev": "next",
@@ -8,14 +8,17 @@
     "type-check": "tsc"
   },
   "dependencies": {
-    "@material-ui/core": "^4.11.2",
-    "@material-ui/icons": "^4.11.2",
+    "@apollo/client": "^3.3.6",
+    "@prisma/client": "^2.13.1",
+    "apollo-server-micro": "^2.19.1",
+    "graphql": "^15.4.0",
     "next": "latest",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "sass": "^1.32.0"
   },
   "devDependencies": {
+    "@prisma/cli": "^2.13.1",
     "@types/node": "^12.12.21",
     "@types/react": "^16.9.16",
     "@types/react-dom": "^16.9.4",
