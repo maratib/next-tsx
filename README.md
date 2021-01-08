@@ -13,10 +13,10 @@ prisma generate
 
 ## .env notes
 ```bash
-# Local Variables accessable at the server only
+# Local Variables accessible at the server only
 DATABASE_URL="mysql://temp:temp@localhost:3306/boma"
 
 
-# Public Variables accessable at the clientside as well
+# Public Variables accessible at the clientside as well
 NEXT_PUBLIC_HELLO="Greetings from server"
 ```
