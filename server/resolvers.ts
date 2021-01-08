@@ -26,6 +26,8 @@ const resolvers = {
         }
       });
       console.log(allUsers);
+      console.log(process.env.NEXT_PUBLIC_HELLO);
+
       return allUsers;
 
       // return [

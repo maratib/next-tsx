@@ -6,6 +6,9 @@ import { GET_USERS } from '../server/schema'
 const AboutPage = () => {
   const { data, loading, error } = useQuery(GET_USERS);
 
+  console.log(process.env.NEXT_PUBLIC_HELLO);
+
+
   if (loading) {
     return <p>loading...</p>;
   }
