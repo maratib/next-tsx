@@ -1,5 +1,5 @@
 import { ApolloServer } from 'apollo-server-micro'
-import typeDefs from '../../server/typeDefs.gql'
+import typeDefs from '../../server/schema.graphql'
 import resolvers from '../../server/resolvers'
 
 

@@ -1,0 +1,17 @@
+Infrastructure Setup (Week 1)
+1. Typescript, Next.js, Material UI, SCSS
+2. DB Setup, structure design, migrations and ORM setup (Prisma)
+3. GraphQL-Client, 
+4. GraphQL-Server,
+5. Multi Level Authentication
+6. Multi Level templates.
+
+Admin Frontend UI (Week 2)
+Admin Dashboard
+
+User Frontend UI (Week 3)
+Home Page
+Properties Page
+Agents Page
+User Dashboard
+

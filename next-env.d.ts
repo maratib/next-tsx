@@ -1,7 +1,7 @@
 /// <reference types="next" />
 /// <reference types="next/types/global" />
 
-declare module '*.gql' {
+declare module '*.graphql' {
   import { DocumentNode } from 'graphql';
   const Schema: DocumentNode;
 

@@ -1,0 +1,26 @@
+type Query {
+  users: [User!]!
+}
+
+enum Role {
+  USER
+  ADMIN
+  ROOT
+}
+
+type User {
+  id: Int!
+  name: String
+  email: String!
+  role: Role
+  props: [Prop]
+}
+
+type Prop {
+  id: Int!
+  title: String
+  slug: String!
+  desc: String
+  published: Boolean
+  user: [User]
+}

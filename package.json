@@ -11,7 +11,7 @@
     "@apollo/client": "^3.3.6",
     "@material-ui/core": "^4.11.2",
     "@material-ui/icons": "^4.11.2",
-    "@prisma/client": "^2.13.1",
+    "@prisma/client": "^2.14.0",
     "apollo-server-micro": "^2.19.1",
     "graphql": "^14.5.8",
     "next": "latest",
@@ -20,7 +20,7 @@
     "sass": "^1.32.0"
   },
   "devDependencies": {
-    "@prisma/cli": "^2.13.1",
+    "@prisma/cli": "^2.14.0",
     "@types/node": "^12.12.21",
     "@types/react": "^16.9.16",
     "@types/react-dom": "^16.9.4",
