@@ -16,7 +16,7 @@ const Header = (props: HeaderProps) => (
         </Link>{' '}
         |{' '}
         <Link href="/admin">
-          <a>Admin</a>
+          <a>Admin 12</a>
         </Link>{' '}
         |
       </nav>

@@ -29,13 +29,6 @@ const resolvers = {
       console.log(process.env.NEXT_PUBLIC_HELLO);
 
       return allUsers;
-
-      // return [
-      //   { id: 1, firstName: 'Maratib Ali', lastName: 'Khan' },
-      //   { id: 2, firstName: 'Shahroz Ali', lastName: 'Khan' },
-      //   { id: 3, firstName: 'Waleed Ali', lastName: 'Khan' },
-      //   { id: 4, firstName: 'Musa', lastName: 'Khan' },
-      // ]
     },
   }, //Query ends
 }
