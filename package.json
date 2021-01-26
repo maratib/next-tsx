@@ -13,6 +13,7 @@
     "@material-ui/icons": "^4.11.2",
     "@prisma/client": "^2.14.0",
     "apollo-server-micro": "^2.19.1",
+    "clsx": "^1.1.1",
     "graphql": "^14.5.8",
     "next": "latest",
     "react": "^16.12.0",
