@@ -1,7 +1,6 @@
 import { Grid, makeStyles, Paper } from '@material-ui/core';
 import clsx from 'clsx';
 import AdminLayout from '../../components/layouts/AdminLayout'
-import theme from '../theme';
 
 const useStyles = makeStyles((theme) => ({
   fixedHeight: {
@@ -15,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }))
 
-export default function About() {
+export default function () {
   const classes = useStyles();
 
   const fixedHeightPaper = clsx(classes.paper, classes.fixedHeight);
@@ -36,7 +35,12 @@ export default function About() {
         </Grid>
         {/* Recent Orders */}
         <Grid item xs={12}>
-          <Paper className={classes.paper}>
+          <Paper className={fixedHeightPaper}>
+
+          </Paper>
+        </Grid>
+        <Grid item xs={12}>
+          <Paper className={fixedHeightPaper}>
 
           </Paper>
         </Grid>
